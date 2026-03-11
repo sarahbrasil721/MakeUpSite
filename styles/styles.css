@@ -19,3 +19,75 @@ header{
     background-size: cover;
     position: relative;
 }
+
+header #nav-left {
+    max-width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    transition: 300ms ease-out;
+}
+
+header #nav-left:hover {
+    transition: 500ms;
+    background-color: #5935329d;
+
+} 
+
+header #logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 10rem;
+}
+
+header #logo img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* menu */
+
+header #menu-icon ul {
+    display: none;
+}
+
+header ul#menu-icon li {
+    list-style: none;
+}
+
+header ul#menu-icon li ion-icon {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+/* nav-right */
+
+header #nav-right {
+    margin-left: 18rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#nav-right li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+#nav-right a {
+    text-decoration: none;
+    color:#c2c2c2;
+    font-size: 100%;
+    /* em duvida sobre o uso de text shadow*/
+    text-shadow: 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    transition: .3s ease-out;
+}
+
+#nav-right a:hover {
+    border-bottom: 1px solid #fff;
+    opacity: .6;
+}
