@@ -10,6 +10,21 @@
         background-size: cover;
         position: relative;
     }
+
+    header #nav-left {
+    max-width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: #00000000;
+    }
+
+    header #nav-left:hover {
+    transition: 500ms;
+    background-color: #59353200;
+
+    } 
 }
 
 
@@ -30,21 +45,28 @@
     header #nav-left ul#menu-icon {
         display: flex;
     }
+    header #nav-left ul#menu-icon{
+        display: flex;
+    }
+
+    header #nav-left ul#menu-icon li#menuX{
+        display: none;
+    }
 
     /* menu */
 
-    header #nav-right {
+    header #nav-left ul#nav-right {
         flex-direction: column;
         width: 80%;
         height: 100vh;
         background: linear-gradient(rgba(4, 157, 217) 0%, rgba(54, 176, 224) 45%, rgba(60, 179, 113, 0.9) 100%);
-        padding-top: .4rem;
+        padding-top: .7rem;
 
         position: absolute;
-        top: 3rem;
+        top: 5.5rem;
         right: 0;
         z-index: 999;
-        /* display: none; */
+        display: none;
     }
 
 
