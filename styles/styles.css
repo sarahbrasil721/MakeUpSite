@@ -25,6 +25,20 @@ h2 {
     font-size: max(20px, 2.8vw);
 }
 
+/* button  */
+
+.header-title a {
+    font-size: max(16px, 1.8vw);
+    font-family: "Lexend", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #BF5E8B;
+    display: inline-block;
+}
+
 /* header */
 
 
@@ -49,13 +63,13 @@ header #nav-left {
 
 header #nav-left:hover {
     transition: 500ms;
-    background-color: #5935329d;
+    background-color: #83828234;
 
 } 
 
 header #logo {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     margin-left: 10rem;
 }
 
@@ -96,7 +110,7 @@ header #nav-right {
 
 #nav-right a {
     text-decoration: none;
-    color:#c2c2c2;
+    color:#dddddd;
     font-size: 100%;
     /* em duvida sobre o uso de text shadow*/
     text-shadow: 0;
@@ -110,3 +124,26 @@ header #nav-right {
     opacity: .6;
 }
 
+/* titulo header */
+
+.header-title {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.header-title h2 {
+    color: #D9C589;
+    margin-bottom: 55px;
+    font-size:40px;
+    letter-spacing: 1px;
+}

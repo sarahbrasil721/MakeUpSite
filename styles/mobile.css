@@ -25,6 +25,47 @@
     background-color: #59353200;
 
     } 
+
+    h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight:200;
+        font-size: max(15px, 1.8vw);
+    }
+
+    h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight:200;
+        font-size: max(15px, 1.8vw);
+    }
+
+    /* button  */
+
+    .header-title a {
+        font-size: max(25px, 2.8vw);
+        font-family: "Lexend", sans-serif;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px 80px;
+        border-radius: 20px;
+        font-weight: 600;
+        background: linear-gradient(rgba(115, 48, 73));
+        display: inline-block;
+    }
+
+    .header-title h1 {
+        color: #BF95A5;
+        font-size: 50px;
+        text-shadow: 3px 3px 10px #000;
+        margin-top: 50px;
+    }
+
+    .header-title h2 {
+    color: #f8f5eb;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size:30px;
+    letter-spacing: 1px;
+    }
 }
 
 
@@ -40,6 +81,8 @@
 
     #nav-left #logo {
         margin-left: 3rem;
+        width: 60px;
+        height: 60px;
     }
 
     header #nav-left ul#menu-icon {
@@ -78,4 +121,7 @@
     header #nav-left ul#nav-right li a{
         font-size: 120%;
     }
+
+
+
 }
