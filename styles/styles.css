@@ -8,9 +8,13 @@ font-family: "Lexend", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+
 }
 
-
+body {
+    background-color: #593532;
+}
 /* font structures */
 
 h1 {
@@ -146,4 +150,123 @@ header #nav-right {
     margin-bottom: 55px;
     font-size:40px;
     letter-spacing: 1px;
+}
+
+/* main */
+
+
+/* about section */
+ 
+.about {
+    max-width: 100%;
+    padding: 60px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.about img {
+    border: none;
+    border-radius: 90px;
+}
+
+.about h2 {
+    font-size: max(30px, 2.8vw);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+/* about buttons */
+
+
+
+/* view details */
+.about .btn-about {
+    background-color: #BF5E8B;
+    padding: 10px 20px;
+    border-radius: 90px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+/* call button */
+.call-button {
+    font-family: "Lexend", sans-serif;
+    padding: 20px 50px;
+    margin-top: 70px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #a6335dd2;
+}
+
+.call-button a {
+    font-size: max(16px, 1.8vw);
+    color: #fff;
+}
+
+
+/* know more section */
+
+.know-more {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+    /* background-color: ; */
+}
+
+.know-more h2 {
+    margin: 40px 50px;
+    max-width: 950px;
+    text-align: center;
+    color: #fff;
+    font-size: max(22px 1.8vw);
+}
+
+.know-more-div {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.know-more-txt {
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.know-more-txt p {
+    width: 95%;
+    margin: auto;
+    color: #fff;
+    font-size: max(17px, 1.5vw);
+
+}
+
+.know-more-img {
+    max-width: 400px;
+}
+
+.know-more-img img {
+    max-width: 100%;
 }

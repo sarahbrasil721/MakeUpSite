@@ -122,6 +122,23 @@
         font-size: 120%;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+
+        /* main */
+
+    .about {
+        max-width: 100%;
+
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        flex-direction:column;
+        gap: 50px;
+    }
 
 
 }
