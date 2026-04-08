@@ -140,5 +140,10 @@
         gap: 50px;
     }
 
-
+    .know-more h2 {
+        font-size: 40px;
+    }
+    .makeart-container h2 {
+        font-size: 40px;
+    }
 }
