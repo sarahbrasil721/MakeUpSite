@@ -40,6 +40,26 @@
 
     /* button  */
 
+    /* call button */
+    .call-button {
+        font-family: "Lexend", sans-serif;
+        padding: 20px 50px;
+        /* margin-top: 90px;
+        margin-left: 10px; */
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 100px;
+        font-weight: 600;
+        display: inline-block;
+        background-color: #f5eff1d2;
+    }
+
+    .call-button a {
+        font-size: max(16px, 1.8vw);
+        color: #0e0101;
+    }
+
+
     .header-title a {
         font-size: max(25px, 2.8vw);
         font-family: "Lexend", sans-serif;
@@ -132,7 +152,21 @@
         max-width: 100%;
 
         margin-bottom: 50px;
+
         text-align: center;
+    }
+
+    .col-lg-4 p {
+        font-size: 25px;
+    }
+
+    .col-lg-4 h2 {
+        font-size: max(40px, 3.8vw);
+    }
+
+    .col-lg-4 {
+        margin-bottom: 50px;
+        margin-top: 40px;
     }
     .row {
         display: flex;
@@ -142,8 +176,46 @@
 
     .know-more h2 {
         font-size: 40px;
+        margin: 0 auto;
     }
+
+    .know-more-txt p{
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+
     .makeart-container h2 {
         font-size: 40px;
     }
+
+
+    .makeart-container h2 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .makeart-container .card{
+        margin-bottom: 15px;
+    }
+
+    .makeart-container p{
+        margin-bottom: 10px;
+}
+}
+
+/* footer */
+
+@media screen and (max-width: 600px) {
+
+    footer .footer-container .footer-info{
+        width: 95%;
+    }
+
+    footer .footer-container .footer-info .cards .footer-img-cards {
+        max-width: 200px;
+    }
+
 }

@@ -167,6 +167,8 @@ header #nav-right {
 }
 
 .row {
+    margin-top: 50px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
 }
@@ -175,7 +177,7 @@ header #nav-right {
 
 .about img {
     border: none;
-    border-radius: 90px;
+    border-radius: 30px;
 }
 
 .about h2 {
@@ -210,7 +212,7 @@ header #nav-right {
 .call-button {
     font-family: "Lexend", sans-serif;
     padding: 20px 50px;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 35px;
     border-radius: 100px;
     font-weight: 600;
@@ -237,7 +239,7 @@ section.know-more{
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
-    /* margin-bottom: 60px; */
+    margin-bottom: 60px;
     /* background-color: ; */
 }
 
@@ -264,9 +266,10 @@ section.know-more{
 
 .know-more-txt {
     max-width: 800px;
-    text-align: left;
+    text-align: center;
+    margin-right: 50px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .know-more-txt p {
@@ -300,15 +303,19 @@ section.makeart{
 
     padding-top: 20px;
     padding-bottom: 40px;
-    /* margin-bottom: 60px; */
+    margin-bottom: 60px;
 }
 
 .makeart-container h2 {
-    margin: 60px 70px;
+    margin: 30px 30px;
     max-width: 950px;
     text-align: center;
     color: #f0eaea;
     font-size: max(22px 1.8vw);
+}
+
+.makeart-container p{
+    margin-bottom: -40px;
 }
 
 .makeart-container{
@@ -336,10 +343,20 @@ section.makeart{
 }
 
 
+.col {
+    border: 0.5px solid #bf95a556;   
+    border-radius: 10px; 
+    margin: 10px 20px;
+
+
+}
+
+
 
 .card img {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: -10px;
     margin-bottom: 20px;
 }
 
@@ -407,8 +424,11 @@ footer {
     color: #d4c9d3;
 }
 
+
+
 .cards{
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
